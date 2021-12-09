@@ -12,15 +12,6 @@ function UpdateString($datafile, $first_name, $last_name, $title, $email, $phone
   $datafile = $datafile -replace "%%name%%", ($first_name + " " + $last_name)
   $datafile = $datafile -replace "%%title%%", $title
   $datafile = $datafile -replace "%%email%%", $email
-        
-
-  if ( $email ) {
-    $datafile = $datafile -replace "%%phone%%", ("e-mail: " + $email)
-  }
-  else {
-    $datafile = $datafile -replace "%%phone%%", ("")
-  }
-
 
   if ( $phone ) {
     $datafile = $datafile -replace "%%phone%%", ("phone: " + $phone)
