@@ -1,26 +1,26 @@
-first_name,last_name,title,email,phone,mobile
-Joseito,aManger,Administrative Assistant I,jamanger0@w3.org,875-313-0767,150-449-0378
-Adelaida,Dykas,Clinical Specialist,adykas1@wordpress.org,227-664-3956,590-445-4139
-Mead,Beardsall,VP Marketing,mbeardsall2@desdev.cn,587-904-2959,201-969-8352
-Tiphani,Clarkson,Environmental Tech,tclarkson3@amazon.co.jp,759-202-2761,919-646-8351
-Mischa,Severwright,Staff Accountant IV,mseverwright4@google.pl,874-993-9385,592-579-7705
-Robinetta,Overington,Teacher,roverington5@wsj.com,288-369-3018,669-639-6486
-Biddy,Chard,Financial Analyst,bchard6@hao123.com,983-908-6689,556-219-1223
-Sheilah,Jentin,Account Executive,sjentin7@engadget.com,664-520-6057,738-828-1534
-Shelbi,Turton,Safety Technician IV,sturton8@uiuc.edu,672-728-5417,963-776-7186
-Klarika,Bonnaire,Clinical Specialist,kbonnaire9@washington.edu,367-197-6009,952-361-7857
-Debbi,Exposito,Web Developer IV,dexpositoa@aboutads.info,813-407-8625,138-392-7894
-Kirbee,Glasby,Geological Engineer,kglasbyb@opensource.org,775-597-3814,305-919-7059
-Archibald,Bushaway,Biostatistician II,abushawayc@reverbnation.com,404-772-7451,889-497-5584
-Lexis,Trowl,Help Desk Technician,ltrowld@zimbio.com,432-419-1010,103-503-4451
-Haleigh,Bridgestock,Web Designer IV,hbridgestocke@unblog.fr,415-473-1670,774-517-2203
-Katerine,Koeppe,Technical Writer,kkoeppef@discuz.net,419-293-6809,388-468-2754
-Clemente,Misson,Geologist IV,cmissong@stanford.edu,452-991-9109,815-331-2160
-Nance,Allden,Structural Engineer,nalldenh@yale.edu,823-138-9211,693-415-4300
-Oralie,Kinneally,Civil Engineer,okinneallyi@constantcontact.com,806-539-6967,233-280-8153
-Nikoletta,Lemanu,Systems Administrator I,nlemanuj@npr.org,841-727-0571,683-240-1276
-Gannie,Shambroke,Accountant I,gshambrokek@ftc.gov,116-543-3598,542-485-5133
-Marlo,Witheford,Research Associate,mwithefordl@studiopress.com,344-941-9065,516-991-4390
-Uriel,Hearley,Senior Financial Analyst,uhearleym@people.com.cn,547-823-5675,375-267-0445
-Clary,Ryrie,Staff Scientist,cryrien@wunderground.com,771-352-4409,407-823-5181
-Dallas,Parkins,Technical Writer,dparkinso@dailymail.co.uk,920-925-0657,455-322-4438
+first_name;last_name;title;email;phone;mobile
+Joseito;aManger;Administrative Assistant I;jamanger0@w3.org;875-313-0767;150-449-0378
+Adelaida;Dykas;Clinical Specialist;adykas1@wordpress.org;227-664-3956;590-445-4139
+Mead;Beardsall;VP Marketing;mbeardsall2@desdev.cn;587-904-2959;201-969-8352
+Tiphani;Clarkson;Environmental Tech;tclarkson3@amazon.co.jp;759-202-2761;919-646-8351
+Mischa;Severwright;Staff Accountant IV;mseverwright4@google.pl;874-993-9385;592-579-7705
+Robinetta;Overington;Teacher;roverington5@wsj.com;288-369-3018;669-639-6486
+Biddy;Chard;Financial Analyst;bchard6@hao123.com;983-908-6689;556-219-1223
+Sheilah;Jentin;Account Executive;sjentin7@engadget.com;664-520-6057;738-828-1534
+Shelbi;Turton;Safety Technician IV;sturton8@uiuc.edu;672-728-5417;963-776-7186
+Klarika;Bonnaire;Clinical Specialist;kbonnaire9@washington.edu;367-197-6009;952-361-7857
+Debbi;Exposito;Web Developer IV;dexpositoa@aboutads.info;813-407-8625;138-392-7894
+Kirbee;Glasby;Geological Engineer;kglasbyb@opensource.org;775-597-3814;305-919-7059
+Archibald;Bushaway;Biostatistician II;abushawayc@reverbnation.com;404-772-7451;889-497-5584
+Lexis;Trowl;Help Desk Technician;ltrowld@zimbio.com;432-419-1010;103-503-4451
+Haleigh;Bridgestock;Web Designer IV;hbridgestocke@unblog.fr;415-473-1670;774-517-2203
+Katerine;Koeppe;Technical Writer;kkoeppef@discuz.net;419-293-6809;388-468-2754
+Clemente;Misson;Geologist IV;cmissong@stanford.edu;452-991-9109;815-331-2160
+Nance;Allden;Structural Engineer;nalldenh@yale.edu;823-138-9211;693-415-4300
+Oralie;Kinneally;Civil Engineer;okinneallyi@constantcontact.com;806-539-6967;233-280-8153
+Nikoletta;Lemanu;Systems Administrator I;nlemanuj@npr.org;841-727-0571;683-240-1276
+Gannie;Shambroke;Accountant I;gshambrokek@ftc.gov;116-543-3598;542-485-5133
+Marlo;Witheford;Research Associate;mwithefordl@studiopress.com;344-941-9065;516-991-4390
+Uriel;Hearley;Senior Financial Analyst;uhearleym@people.com.cn;547-823-5675;375-267-0445
+Clary;Ryrie;Staff Scientist;cryrien@wunderground.com;771-352-4409;407-823-5181
+Dallas;Parkins;Technical Writer;dparkinso@dailymail.co.uk;920-925-0657;455-322-4438
