@@ -7,10 +7,10 @@
   New-Item  -ItemType "directory" $destination_path_prefix
 
 
-  function UpdateString($datafile, $name, $surname, $title, $email, $phone, $mobile)
+  function UpdateString($datafile, $first_name, $last_name, $title, $email, $phone, $mobile)
       {
 
-        $datafile = $datafile -replace "%%name%%", ($name + " " + $surname)
+        $datafile = $datafile -replace "%%name%%", ($first_name + " " + $last_name)
         $datafile = $datafile -replace "%%title%%", $title
         $datafile = $datafile -replace "%%email%%", $email
         
@@ -53,7 +53,7 @@
   foreach ($employee in $CSV){
 
       
-      $Destination_path = $destination_path_prefix + $employee.login
+      $Destination_path = $destination_path_prefix + $employee.first_name + "_" + $employee.last_name
 
       New-Item -ItemType "directory" -Path $Destination_path
 
@@ -62,9 +62,9 @@
       $file_rtf = Get-Content "data\$template.rtf" -Encoding Default -Raw
       $file_htm = Get-Content "data\$template.htm" -Encoding Default -Raw
 
-      $file_txt = UpdateString $file_txt $employee.name $employee.surname $employee.title $employee.email $employee.phone $employee.mobile
-      $file_htm = UpdateString $file_htm $employee.name $employee.surname $employee.title $employee.email $employee.phone $employee.mobile
-      $file_rtf = UpdateString $file_rtf $employee.name $employee.surname $employee.title $employee.email $employee.phone $employee.mobile
+      $file_txt = UpdateString $file_txt $employee.name $employee.last_name $employee.title $employee.email $employee.phone $employee.mobile
+      $file_htm = UpdateString $file_htm $employee.name $employee.last_name $employee.title $employee.email $employee.phone $employee.mobile
+      $file_rtf = UpdateString $file_rtf $employee.name $employee.last_name $employee.title $employee.email $employee.phone $employee.mobile
 
       Out-File -FilePath ("$Destination_path\$template.txt") -InputObject $file_txt -Encoding Default
       Out-File -FilePath ("$Destination_path\$template.rtf") -InputObject $file_rtf -Encoding Default
