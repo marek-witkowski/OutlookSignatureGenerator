@@ -1,1 +1,1 @@
-# OfficeSignatureGenerator
+# MS Office Signature Generator
