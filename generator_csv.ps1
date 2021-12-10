@@ -32,7 +32,7 @@ function UpdateString($datafile, $first_name, $last_name, $title, $email, $phone
 
 }
 
-$CSV = Import-Csv -Path "$PSScriptRoot\employees.csv" -Encoding Default -Delimiter ";"
+$CSV = Import-Csv -Path "$PSScriptRoot\users.csv" -Encoding Default -Delimiter ";"
 
 foreach ($employee in $CSV) {
 
