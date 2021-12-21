@@ -1,4 +1,4 @@
-# MS Office Signature Generator
+# MS Outlook Signature Generator
 
 This script helps you create bulk signatures in Office 365 for multiple users.
 The first script gets data from the CSV file. The second script gets data from the MS Access MDB file.
