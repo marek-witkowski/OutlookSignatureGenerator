@@ -71,6 +71,8 @@ while (!$recordset.eof){
   Out-File -FilePath ("$Destination_path\$template.htm") -InputObject $file_htm -Encoding Default
 
   Copy-Item -Path ("data\" + $template + "_files") -Destination $Destination_path -Recurse
+  
+  $recordset.MoveNext()
 
 }
 
